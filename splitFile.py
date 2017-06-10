@@ -1,21 +1,4 @@
-""" 
-filesplitter by Yankeevic. 20170606
-splists a file and generates as many files as pairs of even-odd lines
 
-MODULES:
-    cefpython3 (57.0)
-    named-constants (1.0)
-    pip (9.0.1)
-    setuptools (28.8.0)
-    six (1.10.0)
-    wxPython (4.0.0a3)
-
-TODO:
-    Error management 
-    big file management. 
-    Additional checks and guards ?
-    Add to source control
-"""
 import os
 import sys
 #https://stackoverflow.com/questions/291740/how-do-i-split-a-huge-text-file-in-python
