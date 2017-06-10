@@ -1,2 +1,2 @@
 # splitfile
-app to cut an input file with pairs of registers into as many output files as pairs found.
+Python app to generate, from an input file with pairs of related registers,  as many output files as pairs found.
