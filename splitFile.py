@@ -1,6 +1,6 @@
-
 import os
 import sys
+
 #https://stackoverflow.com/questions/291740/how-do-i-split-a-huge-text-file-in-python
 import mmap
 #https://stackoverflow.com/questions/19684434/best-way-to-check-function-arguments-in-python
@@ -14,8 +14,16 @@ class UserMessages(Constants):
     MSG3 = "File size in bytes: "
 
 class ErrorMessages(Constants):
+    #member variables go here
     ERR1 = "WARNING: Missing argument=> -i 'c:\inputfile.txt'  "
     ERR2 = "WARNING: The file does not exist => "
+    #class methods go here
+     #do initialization stuff here
+    """ method example
+    def car_color(self, colorr="black"):
+        self.color = cars.paint(colorr)
+        return True
+    """
     
 class Parameters:
     def __init__(self, filename):
@@ -23,7 +31,7 @@ class Parameters:
         #self.outputpath = outputpath
         
 def main():
-    version = '1.0'
+    version = '0.8'
     params = checkarguments()
     getfilesize(params)
     splitfile(params)
